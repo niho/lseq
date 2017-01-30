@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+import Data.LSeq (LSeq, fromList, toList, insert, remove, empty)
+import System.Random
 
 main :: IO ()
-main = someFunc
+main = putStrLn "hello world"
